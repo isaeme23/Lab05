@@ -3,19 +3,19 @@
 ### PARTE I. - JUGANDO A SER UN CLIENTE HTTP
 
 1. Abra una terminal Linux o consola de comandos Windows.
-![](1.png)
+![](resourcer/1.png)
 
 
 2. Realice una conexión síncrona TCP/IP a través de Telnet al siguiente servidor:
    * Host: www.escuelaing.edu.co
    * Puerto: 80
-![](2.png)
+![](resourcer/2.png)
 
 
 3. Antes de que el servidor cierre la conexión por falta de comunicación:
     * Solicite al servidor el recurso ‘sssss/abc.html’,
       usando la versión 1.0 de HTTP.
-   ![](3.png)
+   ![](resourcer/3.png)
     * ¿Qué código de error sale? 400 Bad Request
     * ¿Qué otros códigos de error existen?, ¿En qué caso se manejarán?
       
@@ -41,18 +41,18 @@
 
    Ahora, solicite (GET) el recurso /html. ¿Qué se obtiene como resultado?
    
-   ![](5.png)
+   ![](resourcer/5.png)
 
 
 5. Seleccione el contenido HTML de la respuesta y copielo al cortapapeles CTRL-SHIFT-C. Ejecute el comando wc (word count) para contar palabras con la
    opción -c para contar el número de caracteres:
 
    Guardamos el contenido del resultado en un archivo de texto y ejecutamos el comando
-    ![](4.png)
+    ![](resourcer/4.png)
 
 
 6. En la práctica no se utiliza telnet para hacer peticiones a sitios web sino el comando curl con ayuda de la línea de comandos:
-   ![](6.png)
+   ![](resourcer/6.png)
 
 
    Utilice ahora el parámetro -v y con el parámetro -i:
@@ -60,7 +60,7 @@
    **Usando el parametro -v**
 
    Nos muestra de forma actualizada las consultas y pedidos que se hacen para obtener la informacion:
-   ![](7.png)
+   ![](resourcer/7.png)
   
    Nos muestra mas informacion detallada de la fecha e informacion sobre el contenido requerido
-   ![](8.png)
+   ![](resourcer/8.png)
