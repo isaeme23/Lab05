@@ -86,7 +86,32 @@
  
 10. En el navegador revise la dirección https://jsonplaceholder.typicode.com/todos/1. Intente cambiando diferentes números al final del path de la url.
 
-**Original**
+**Original:**
 
  ![](resourcer/12.png)
  
+**Numero 2:**
+
+![](resourcer/13.png)
+
+**Numero 3:**
+
+![](resourcer/14.png)
+
+**Numero 4:**
+
+![](resourcer/15.png)
+
+11. Basado en la respuesta que le da el servicio del punto anterior, cree la clase edu.eci.cvds.servlet.model.Todo con un constructor vacío y los
+métodos getter y setter para las propiedades de los "To Dos" que se encuentran en la url indicada.
+
+![](resourcer/16.png)
+
+12. Utilice la siguiente clase para consumir el servicio que se encuentra en la dirección url del punto anterior.
+13. Implementacion del metodo con errores:
+
+![](resourcer/17.png)
+
+![](resourcer/18.png)
+
+![](resourcer/19.png)
