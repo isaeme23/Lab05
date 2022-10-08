@@ -1,6 +1,8 @@
 # Laboratorio 5
 ## CVDS 2022 - 2
+### INTEGRANTES: SANTIAGO OSPINA, ISABELLA MANRIQUE
 ### PARTE I. - JUGANDO A SER UN CLIENTE HTTP
+
 
 1. Abra una terminal Linux o consola de comandos Windows.
 ![](resourcer/1.png)
@@ -9,6 +11,7 @@
 2. Realice una conexión síncrona TCP/IP a través de Telnet al siguiente servidor:
    * Host: www.escuelaing.edu.co
    * Puerto: 80
+   
 ![](resourcer/2.png)
 
 
@@ -64,3 +67,26 @@
   
    Nos muestra mas informacion detallada de la fecha e informacion sobre el contenido requerido
    ![](resourcer/8.png)
+   
+7. Abra un navegador, y en la barra de direcciones ponga la URL con la cual se le enviarán peticiones al ‘SampleServlet’. Tenga en cuenta que la URL tendrá
+   como host ‘localhost’, como puerto, el configurado en el pom.xml y el path debe ser el del Servlet. Debería obtener un mensaje de saludo.
+
+   ![](resourcer/9.png)
+
+
+8. Observe que el Servlet ‘SampleServlet’ acepta peticiones GET, y opcionalmente, lee el parámetro ‘name’. Ingrese la misma URL, pero ahora agregando
+    un parámetro GET (si no sabe como hacerlo, revise la documentación en http://www.w3schools.com/tags/ref_httpmethods.asp)
+
+   ![](resourcer/10.png)
+
+
+9. Busque el artefacto gson en el repositorio de maven y agregue la dependencia.
+
+ ![](resourcer/11.png)
+ 
+10. En el navegador revise la dirección https://jsonplaceholder.typicode.com/todos/1. Intente cambiando diferentes números al final del path de la url.
+
+**Original**
+
+ ![](resourcer/12.png)
+ 
