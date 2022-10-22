@@ -115,3 +115,21 @@ métodos getter y setter para las propiedades de los "To Dos" que se encuentran 
 ![](resourcer/18.png)
 
 ![](resourcer/19.png)
+
+## Parte III
+14. En la página anterior, cree un formulario que tenga un campo para ingresar un número (si no ha manejado html antes, revisehttp://www.w3schools.com/html/ ) y un botón. El formulario debe usar como método ‘POST’, y como acción, la ruta relativa del último servlet creado(es decir la URL pero excluyendo ‘http://localhost:8080/’).**
+![](resourcer/21.png)
+![](resourcer/20.png)
+
+15. Revise este ejemplo de validación de formularios con javascript y agruéguelo a su formulario, de manera que -al momento de hacer ‘submit’- desde elbrowser se valide que el valor ingresado es un valor numérico.
+![](resourcer/22.png)
+
+16. Recompile y ejecute la aplicación. Abra en su navegador en la página del formulario, y rectifique que la página hecha anteriormente sea mostrada.Ingrese los datos y verifique los resultados. Cambie el formulario para que ahora en lugar de POST, use el método GET . Qué diferencia observa?
+
+![](resourcer/23.png)
+![](resourcer/24.png)
+
+Cuando se usa el metodo post, se oculta en la url el id que se esta utilizando mientras que con get la url nos muestra el id ingresado en el formulario.
+
+## Parte IV
+
