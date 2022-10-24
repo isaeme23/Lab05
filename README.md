@@ -132,4 +132,3 @@ métodos getter y setter para las propiedades de los "To Dos" que se encuentran 
 Cuando se usa el metodo post, se oculta en la url el id que se esta utilizando mientras que con get la url nos muestra el id ingresado en el formulario.
 
 ## Parte IV
-
