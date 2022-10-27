@@ -132,3 +132,27 @@ métodos getter y setter para las propiedades de los "To Dos" que se encuentran 
 Cuando se usa el metodo post, se oculta en la url el id que se esta utilizando mientras que con get la url nos muestra el id ingresado en el formulario.
 
 ## Parte IV
+1. Realizar un Backing Bean con las especificaciones pedidas en el labratorio, con su respectivo form. Además, crear un archivo guess.xhtml que mostrara el formato para adivinar un numero ademas de dos botones que nos ayudaran a jugar:
+![](resourcer/25.png)
+2. Abrimos el navegador para tratar de adivinar el número, con el servicio iniciado el programa se ve de la siguiente forma:
+![](resourcer/26.png)
+3. Abrimos otro navegador y realizamos 5 intentos en uno y un intento en el otro:
+En este primer navegador, hacemos 5 intentos:
+![](resourcer/27.png)
+
+Al hacer solo uno en un navegador diferente, vemos como se acumularon los intentos del primer navegador y se pasaron a este:
+![](resourcer/28.png)
+
+4. Abortamos el proceso de Tomcat y modificamos el codigo del Backing Bean para cambiar @SessionScoped en lugar de @ApplicationScoped.
+![](resourcer/29.png)
+
+Reiniciamos la aplicacion y ahora realizamos el mismo ejercicio:
+Con un solo intento podemos ver que ahora cada navegador es independiente del otro
+![](resourcer/30.png)
+![](resourcer/31.png)
+
+5. Abrimos opciones del desarrollador y buscaremos:
+   * Codigo HTML generado![](resourcer/32.png)
+   
+6. Agregamos la funcionalidad de mostrar los intentos fallidos al usuario:
+![](resourcer/33.png)
