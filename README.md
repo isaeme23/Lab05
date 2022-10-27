@@ -152,9 +152,9 @@ Con un solo intento podemos ver que ahora cada navegador es independiente del ot
 ![](resourcer/31.png)
 
 5. Abrimos opciones del desarrollador y buscaremos:
-   * Codigo HTML generado![]
+   * Codigo HTML generado
    
-   (resourcer/32.png)
+   ![](resourcer/32.png)
    
 6. Agregamos la funcionalidad de mostrar los intentos fallidos al usuario:
 ![](resourcer/33.png)
